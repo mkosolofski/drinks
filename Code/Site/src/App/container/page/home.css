@@ -1,0 +1,15 @@
+.page {
+    max-width: 600px;
+}
+
+.existing-user-info-table th,
+.existing-user-info-table td,
+.drink-info-table th,
+.drink-info-table td {
+    text-align: center;
+}
+
+.card-step {
+    border: 0;
+    box-shadow: none;
+}

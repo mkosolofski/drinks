@@ -1,0 +1,90 @@
+/* Site Theme */
+body {
+    background-color: #fbfbfb;
+}
+
+.cursor-grab {
+    cursor: grabbing;
+    cursor: -webkit-grabbing;
+}
+
+select, input, button, .dropzone, .logout-icon {
+    cursor: pointer;
+}
+
+.page-body {
+    padding-bottom: 30px;
+}
+
+header {
+  box-shadow: -4px 7px 7px 2px rgba(101,109,119,.16)!important;
+    
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 30px;
+  margin: 0!important;
+  padding: 0!important;
+  width: 100%;
+}
+
+/* Tabler */
+.card-header .icon {
+    width: auto;
+    height: auto;
+}
+
+/* Bootstrap */
+.popover  {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ml-auto {
+    margin-left: auto!important;
+}
+
+.mr-auto {
+    margin-right: auto!important;
+}
+
+.btn-outline-success {
+    border-color: #2fb344!important;
+}
+
+.btn-outline-primary {
+    border-color: #206bc4!important;
+}
+
+.btn-outline-danger {
+    border-color: #d63939!important;
+}
+
+.btn-outline-warning {
+    border-color: #f76707!important;
+}
+
+.btn-outline-secondary {
+    border-color: #656d77!important;
+}
+
+.btn-outline-info {
+    border-color: #4299e1!important;
+}
+
+/* IziToast */
+.iziToast-overlay {
+    backdrop-filter: blur(2px);
+    z-index: 2000;
+}
+
+/* Tabler Icon */
+.icon-tabler {
+    width: inherit!important;
+    height: inherit!important;
+}
+
+.navbar-brand-image {
+    height: 4rem!important;
+}

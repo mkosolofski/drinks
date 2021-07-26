@@ -1,0 +1,3 @@
+user:
+    name:
+        unique: "Sorry, the user name has already been taken."

@@ -1,0 +1,30 @@
+fos_rest:
+    allowed_methods_listener: true
+    body_listener:
+        array_normalizer: fos_rest.normalizer.camel_keys
+    body_converter:
+        enabled: true
+        validate: true
+        validation_errors_argument: validationErrors
+    disable_csrf_role: ROLE_API
+    format_listener:
+        rules:
+            path: '^/'
+            priorities: ['json']
+            fallback_format: json
+            prefer_extension: false
+    param_fetcher_listener: true
+    # routing_loader:
+    #    default_format:  json
+    #    include_format: false
+    view:
+        view_response_listener: true
+        formats:
+            json: true
+            xml: false
+            rss: false
+        mime_types:
+            json: ['application/json', 'application/x-json']
+        jsonp_handler: false
+    exception:
+        enabled: true

@@ -1,0 +1,3 @@
+user:
+    not_found: "User not found."
+    caffeine_limit_hit: "You've hit your caffeine limit of {{ limit }}! No more caffeine for you!"
