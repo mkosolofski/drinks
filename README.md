@@ -5,7 +5,7 @@ A ficticious site for tracking user caffeine consumption.
 This site was created to showcase a ReactJS app integrated with a Symfony 5 based Api.
 
 # How To Install & Run
-This repo comes with everything you need to run and install drinks.com locally within it own docker environment!
+This repo comes with everything you need to run and install drinks.com locally within your own docker environment!
 
 1. Clone down the repo
 2. In the repo root folder, start the docker environment by running:
