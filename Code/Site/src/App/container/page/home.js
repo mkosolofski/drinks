@@ -141,12 +141,12 @@ class Home extends Component {
                                 .then(
                                     (response) => {
                                         
-                                        let totalCosumedCaffeine = 0,
+                                        let totalConsumedCaffeine = 0,
                                             consumedTableRows = '';
 
                                         response.user_drinks.forEach(
                                             (userDrink) => {
-                                                totalCosumedCaffeine += userDrink.drink.caffeine;
+                                                totalConsumedCaffeine += userDrink.drink.caffeine;
 
                                                 consumedTableRows += `<tr>
                                                     <td>` + userDrink.drink.name + `</td>
@@ -168,8 +168,8 @@ class Home extends Component {
                                                     ` + consumedTableRows + `
                                                     <tr>
                                                         <td colspan="2">
-                                                            Total Cosumed Caffeine
-                                                            <span class="text-info font-weight-bold">` + totalCosumedCaffeine + `mg</span>
+                                                            Total Consumed Caffeine
+                                                            <span class="text-info font-weight-bold">` + totalConsumedCaffeine + `mg</span>
                                                         </td>
                                                     </tr>
                                                 </tbody>
