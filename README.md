@@ -13,12 +13,12 @@ This repo comes with everything you need to run and install drinks.com locally w
 ```docker-compose up -d```
 
 3. Add the following entries to your local hosts file (/etc/hosts)
-4. If this is the first time you are starting the environment, please wait ~1-2 minutes as the drinks-site container will need to perform an npm install.
 ```
 127.0.0.1 api.drinks.com
 127.0.0.1 www.drinks.com
 127.0.0.1 drinks.com
 ```
+4. If this is the first time you are starting the environment, please wait ~1-2 minutes as the drinks-site container will need to perform an npm install.
 
 ### Caffeine Limit Configuration
 You can adjust the maximum caffeine user limit by updating the "max_caffeine_mg" value in the drinks.configuration database table.
