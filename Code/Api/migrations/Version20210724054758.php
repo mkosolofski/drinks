@@ -32,7 +32,7 @@ final class Version20210724054758 extends AbstractMigration
                 ("Black Coffee", "The classic, the average 8oz. serving of black coffee has 95mg of caffeine.", 95),
                 ("Americano", "Sometimes you need to water it down a bit... and in comes the americano with an average of 77mg. of caffeine per serving.", 77),
                 ("Sugar free NOS", "Another orange delight without the sugar. It has 130 mg. per serving and each can has two servings.", 130),
-                ("5 Hour Energy", "And amazing shot of get up and go! Each 2 fl. oz. container has 200mg of caffeine to get you going.", 200)
+                ("5 Hour Energy", "An amazing shot of get up and go! Each 2 fl. oz. container has 200mg of caffeine to get you going.", 200)
         ');
 
         $this->addSql('
