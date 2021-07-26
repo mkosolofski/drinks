@@ -18,7 +18,7 @@ This repo comes with everything you need to run and install drinks.com locally w
 127.0.0.1 www.drinks.com
 127.0.0.1 drinks.com
 ```
-5. If this is the first time you are starting the environment, please wait ~1-2 minutes as the drinks-site container will need to perform an npm install.
+4. If this is the first time you are starting the environment, please wait ~1-2 minutes as the drinks-site container will need to perform an npm install.
 
 ### Caffeine Limit Configuration
 You can adjust the maximum caffeine user limit by updating the "max_caffeine_mg" value in the drinks.configuration database table.
