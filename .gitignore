@@ -11,14 +11,6 @@ Code/Api/vendor
 Code/Site/node_modules
 Code/Site/coverage
 Code/Site/build
-Code/Sitenpm-debug.log*
-Code/Siteyarn-debug.log*
-Code/Siteyarn-error.log*
-Code/Site/node_modules
-Code/Site/.pnp
-Code/Site.pnp.js
-Code/Site/coverage
-Code/Site/build
-Code/Sitenpm-debug.log*
-Code/Siteyarn-debug.log*
-Code/Siteyarn-error.log*
+Code/Site/npm-debug.log
+Code/Site/yarn-debug.log
+Code/Site/yarn-error.log
