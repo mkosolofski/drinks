@@ -427,8 +427,7 @@ class Home extends Component {
                         </Card.Body>
                     </Card>
 
-
-                    <Card className="mb-5 card-step">
+                    <Card className="mb-2 card-step">
                         <Card.Header className="font-weight-bold text-white bg-info text-center">
                             <IconCircle2 size="30"/><span className="mx-1">What Should Be Consumed?</span>
                         </Card.Header>
