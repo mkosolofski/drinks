@@ -1,3 +1,5 @@
+cd /var/www/Api && composer install
+
 until eval "cd /var/www/Api && bin/console doctrine:database:create && bin/console doctrine:migration:migrate --no-interaction"; do
   >&2 echo "mysql is unavailable - sleeping"
   sleep 1
